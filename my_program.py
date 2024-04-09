@@ -92,6 +92,7 @@ async def process_url(text, url):
                 write_to_file(h2_texts, filename)
 
                 return new, disappeared
+
             else:
                 raise Exception(f"Ошибка при получении страницы {url}: {response.status}")
 
