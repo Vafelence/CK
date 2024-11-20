@@ -44,6 +44,7 @@ async def run_task():
             ('Models 1/18', 'https://ck-modelcars.de/ru/l/t-gesamt/k-alle/scale-2-1-18/a-900/sort-priceup/pmin-30/pmax-60/'),
         ]
 
+
         new_models = {}  # Словарь для хранения новых строк
         disappeared_models = {}  # Словарь для хранения исчезнувших строк
 
