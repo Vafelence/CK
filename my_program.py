@@ -38,12 +38,7 @@ async def run_task():
             ('2nd Choice',
              'https://ck-modelcars.de/ru/l/t-suche/a-900/sort-priceup/?s=choice&typ=suche&artikel=18&sort=priceup&suche=choice&massstab=&hersteller=&saison=&artikel=900&sort=priceup&pmin=&pmax='),
             ('New Models', 'https://ck-modelcars.de/ru/l/t-gesamt/k-alle/a-90/p-1/sort-new/'),
-            ('Figures', 'https://ck-modelcars.de/ru/l/t-suche/k-alle/a-900/sort-priceup/?s=cartrix'),
-            ('Lancer', 'https://ck-modelcars.de/ru/l/t-suche/k-alle/a-900/sort-new/?s=lancer'),
-            ('Odezhda', 'https://ck-modelcars.de/ru/l/t-fanshop/k-alle/a-900/sort-priceup/'),
-            ('Models 1/18', 'https://ck-modelcars.de/ru/l/t-gesamt/k-alle/scale-2-1-18/a-900/sort-priceup/pmin-30/pmax-60/'),
-        ]
-
+                    ]
 
         new_models = {}  # Словарь для хранения новых строк
         disappeared_models = {}  # Словарь для хранения исчезнувших строк
